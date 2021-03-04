@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<h3>Home</h3>
+<fieldset style="width: 300px">
+    <legend>Login</legend>
+    <table>
+        <form action="/home/login" method="post" modelAttribute="login">
+            <tr>
+                <td>
+                    <label for="account">Account:</label>
+                </td>
+                <td>
+                    <input type="text" name="account" id="account" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="pass" >
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login">
+                </td>
+            </tr>
+        </form>
+    </table>
+</fieldset>
+
+</body>
+</html>
